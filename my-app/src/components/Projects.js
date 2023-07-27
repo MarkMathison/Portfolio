@@ -1,8 +1,8 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../assets/img/project-img1.png";
-import projImg2 from "../assets/img/project-img2.png";
-import projImg3 from "../assets/img/project-img3.png";
+import projImg1 from "../assets/img/InstaClone.png";
+import projImg2 from "../assets/img/ComingSoon.jpg";
+import projImg3 from "../assets/img/ComingSoon.jpg";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -11,33 +11,33 @@ export const Projects = () => {
 
   const projects = [
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Instagram clone",
+      description: "This is a simple instagram clone i designed and developed with limit functionality",
       imgUrl: projImg1,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Coming Soon",
+      description: "NA",
       imgUrl: projImg2,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Coming Soon",
+      description: "NA",
       imgUrl: projImg3,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg1,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Coming Soon",
+      description: "NA",
       imgUrl: projImg2,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Coming Soon",
+      description: "NA",
+      imgUrl: projImg2,
+    },
+    {
+      title: "Coming Soon",
+      description: "NA",
       imgUrl: projImg3,
     },
   ];
@@ -80,12 +80,13 @@ These are the projects I have completed, and I am deeply passionate about them. 
                         }
                       </Row>
                     </Tab.Pane>
-                    <Tab.Pane eventKey="section">
-                      <p>Description.</p>
-                    </Tab.Pane>
-                    <Tab.Pane eventKey="third">
-                      <p>Description.</p>
-                    </Tab.Pane>
+                    <Tab.Pane eventKey="second">
+                           <p>Description.</p>
+                                      </Tab.Pane>
+                                <Tab.Pane eventKey="third">
+                                      <p>Description.</p>
+                                              </Tab.Pane>
+
                   </Tab.Content>
                 </Tab.Container>
               </div>}
