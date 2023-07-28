@@ -34,7 +34,6 @@
     "eject": "react-scripts eject",
     "dev": "concurrently \"npm run start\" \"npm run server\""
   },
-  "proxy": "http://localhost:5000",
   "eslintConfig": {
     "extends": [
       "react-app",
