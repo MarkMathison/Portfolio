@@ -25,7 +25,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start:server": "node my-app/server.js",
+    "start:server": "node server.js",
     "start:app": "react-scripts start",
     "start": "npm-run-all --parallel start:server start:app",
     "build": "react-scripts build",
@@ -33,6 +33,7 @@
     "eject": "react-scripts eject",
     "dev": "concurrently \"npm run start\" \"npm run server\""
   },
+
 
 
 
