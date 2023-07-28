@@ -29,7 +29,7 @@ export const Contact = () => {
     e.preventDefault();
     setButtonText("Sending...");
     try {
-      const response = await fetch("/contact", { // Removed proxy from URL
+      const response = await fetch("https://spotty-quirky-jobaria.glitch.me/contact", {
         method: "POST",
         headers: {
           "Content-Type": "application/json;charset=utf-8",
@@ -50,6 +50,7 @@ export const Contact = () => {
       setStatus({ success: false, message: 'Something went wrong, please try again later.' });
     }
   };
+
 
   return (
     <section className="contact" id="connect">
