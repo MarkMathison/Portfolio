@@ -1,7 +1,7 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import projImg1 from "../assets/img/InstaClone.png";
-import projImg2 from "../assets/img/ComingSoon.jpg";
+import projImg2 from "../assets/img/AI-SAAS.PNG";
 import projImg3 from "../assets/img/ComingSoon.jpg";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
@@ -16,8 +16,8 @@ export const Projects = () => {
       imgUrl: projImg1,
     },
     {
-      title: "Coming Soon",
-      description: "NA",
+      title: "AI-SAAS",
+      description: "This is a project that I integrated open AI to generate images,code,text,pictures,videos, and music. Technologies- Next 13, React, Tailwind,Prisma,MySQL,Stripe,and Crisp url=https://2nd-project-r2fn-j6edlmxxl-markmathison.vercel.app/",
       imgUrl: projImg2,
     },
     {
@@ -28,12 +28,12 @@ export const Projects = () => {
     {
       title: "Coming Soon",
       description: "NA",
-      imgUrl: projImg2,
+      imgUrl: projImg3,
     },
     {
       title: "Coming Soon",
       description: "NA",
-      imgUrl: projImg2,
+      imgUrl: projImg3,
     },
     {
       title: "Coming Soon",
