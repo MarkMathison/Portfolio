@@ -16,9 +16,9 @@ export const Footer = () => {
           </Col>
           <Col size={12} sm={6} className="text-center text-sm-end">
             <div className="social-icon">
-              <a href="#"><img src={navIcon1} alt="Icon" /></a>
-              <a href="#"><img src={navIcon2} alt="Icon" /></a>
-              <a href="#"><img src={navIcon3} alt="Icon" /></a>
+              <a href="https://profile.indeed.com/?hl=en_US&co=US&from=gnav-homepage"><img src={navIcon1} alt="Icon" /></a>
+              <a href="https://www.linkedin.com/in/mark-mathison-908098230/"><img src={navIcon2} alt="Icon" /></a>
+              <a href="https://www.instagram.com/merk2365/"><img src={navIcon3} alt="Icon" /></a>
             </div>
             <p>Copyright 2022. All Rights Reserved</p>
           </Col>

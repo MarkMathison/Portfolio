@@ -51,7 +51,7 @@ export const NavBar = () => {
             <span className="navbar-text">
               <div className="social-icon">
                 <a href="https://profile.indeed.com/?hl=en_US&co=US&from=gnav-homepage&_ga=2.59892781.1681675795.1690060015-966847306.1674249477"><img src={navIcon1} alt="" /></a>
-                <a href="#"><img src={navIcon2} alt="" /></a>
+                <a href="https://www.linkedin.com/in/mark-mathison-908098230/"><img src={navIcon2} alt="" /></a>
                 <a href="https://www.instagram.com/merk2365/"><img src={navIcon3} alt="" /></a>
               </div>
               <HashLink to='#connect'>
